@@ -1,0 +1,23 @@
+/*Media Queries para trabalhar com responsividade*/
+
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav{
+        margin-left: 40px;
+    }
+
+    .botao{
+        margin-top: 10px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
